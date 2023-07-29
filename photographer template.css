@@ -1,0 +1,21 @@
+@charset"UTF-8";
+*{box-sizing: border-box;margin: 0px; font-family: verdana;}
+body{background-color: #fff;} header{ position: relative;text-align: center;}
+h1{font-size: 4vw; margin-bottom: 20px;font-weight: lighter;}p{font-size: 15px;font-weight: lighter;line-height: 20px;}
+h5{font-size: 2vw;font-weight: lighter;}h3{font-size: 20px; font-weight: lighter;text-align: center;margin-bottom: 20px;}
+.bg{width: 100%;}div.border{position: absolute;left: 50%; top: 50%; transform: translate(-50%,-50%); color: white; border: 1px solid white; 
+padding: 15px;background-color: rgba(255,255,255,0.01);}div.last{position: absolute;width: 300px;bottom: -10px; left: 50%;transform: translate(-50%,-0%);}
+div.last a{color: black; padding:7px 20px;text-decoration: none;background-color: #f1f1f1;}div.last a:hover{background-color: #ccc;}div.nav{ display: none;width: 100%;padding: 10px; background-color: #f1f1f1;margin: 20px 0px;text-align: center; }
+div.nav > a{text-decoration: none; color:rgb(0,0,0);padding: 5px 10px;}
+div.middle{width: 70%; margin:20px auto;}div.middle > img{margin:10px 0px; width: 100%;}#Contact{width: 100%; background-color: #f1f1f1;padding: 30px;}
+label{width: 100%; font-size: 17px;}input,button{padding: 10px;width: 100%;}form > div{margin-top: 20px;}button{font-size: 20px; background-color: rgba(0,0,0,0.5); text-align: center;
+color: rgb(255,255,255);margin-top: 20px; border:none;}div.footer{margin-top:30px;}button:hover{background-color: #ccc;color: rgb(0,0,0);cursor: pointer;}
+div.footer > a{color: rgb(0,0,0);}div.footer a:hover{color:mediumseagreen; }
+@media screen and (max-width:960px){
+	h5{display: none;}
+	div.middle{width: 95%; margin:0px auto;margin-top: 20px;}
+}
+@media screen and (max-width: 600px){
+	div.last{display: none;}
+	div.nav{width: 100%;margin-top: 0px;padding: 20px 0px;display: block;}
+}
